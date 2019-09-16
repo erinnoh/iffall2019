@@ -1,0 +1,76 @@
+
+head {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px; /*16px; 16%; 0em; 1rem*/
+  color: #87CEEB;
+  line-height: 5px
+  }
+
+h2 {
+  font-weight: normal;
+  font-family: 'Futura', sans-serif;
+  font-size: 15px;
+  color: #87CEEB;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 10px
+  font-size: 18px;
+  font-weight: 100;
+  color:#4C516D
+  }
+    strong {
+      font-weight: normal;
+      text-decoration: underline;/* none, overline, line-through */
+      font-size: 20px;
+      line-height: 10px
+      font-family: 'Futura', sans-serif;
+      color:#F4874B
+    }
+    div {
+    font-size: 15px; /*20px; 16%; 0em; 1rem*/
+    font-family: 'Futura', sans-serif
+    line-heigh: 5px
+    color: #ADD8E6;
+    }
+
+.thick{
+  font-weight:600;
+}
+.thicker{
+  font-weight:1000;
+}
+.italicize{
+  font-style: italic;
+}
+.first{
+  letter-spacing: -.2em
+}
+.second{
+  letter-spacing:0.2em
+}
+.third{
+  letter-spacing:0.4em
+}
+.lowercase{
+    text-transform: lowercase;
+    }
+.uppercase{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.medium{
+  font-weight: 500;
+}
+.underline{
+  text-decoration: underline;
+}
+.line-through{
+  text-decoration: line-through;
+}
+.overline{
+  text-decoration: overline;
+}
