@@ -18,7 +18,7 @@ h2{
   text-transform: uppercase;
   font-weight: lighter;
 }
-img{
+.cast img{
   width: 100%;
 }
 #game-of-thrones .seasons li:last-child::after{
