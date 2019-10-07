@@ -1,0 +1,40 @@
+aside.firstdiv{
+  float: right;
+}
+aside.seconddiv{
+  position: absolute;
+  margin-left: 639px;
+  margin-right: auto;
+  margin-top: 71px;
+}
+
+aside.thirddiv{
+  float: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+  scroll-behavior: smooth;
+  background-color: green;
+}
+aside.forthdiv{
+background-color: red;
+position: absolute;
+margin-left: 310px;
+margin-right: auto;
+z-index: 2;
+}
+aside.fifthdiv{
+background-color: black;
+position: absolute;
+margin-left: 320px;
+margin-right: auto;
+margin-top: 10px;
+z-index: 1;
+}
+margin-top: 0px;
+margin-right: 0px;
+position: absolute;
+left: 1032px;
+top: 846px;
+float: right;
+}
