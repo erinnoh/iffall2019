@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Buttons</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://fontawesome.com/icons/lyft?style=brands">
+		<link rel="stylesheet" href="https://use.typekit.net/zas8qxw.css">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.typekit.net/zas8qxw.css">
+
+
+
+		<style>
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+			}
+
+      a#btn_coca-color {
+        display: block;
+        width: 150px;
+        height: 150px;
+        box-sizing: border-box;
+        border-radius: 100px;
+        margin: auto;
+        margin-top: 60px;
+        padding-top: 8px;
+        background-color: red;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        font-size: 40px;
+      }
+
+      a#btn_coca-color:hover {
+        color: #ffff;
+        background-color: pink;
+				  transform: scale(1.1);
+					transform: rotate(360deg);
+					transition-duration: 1s;
+      }
+
+      a#btn_coca-color img {
+        width: 130px;
+        margin-top: 45px;
+      }
+
+			a#btn_ideo {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				box-shadow: 1px 2px 2px /*how blurry*/ rgba(0,0,0,0.6);
+				border-radius: 30px;
+				margin: 20px;
+				margin-top: 95px;
+				padding: 10px 30px 0 30px;
+        background-color: #70cbc9;
+				text-decoration: none;
+        color: white;
+				font-family: 'Questrial', sans-serif;
+        text-transform: uppercase;
+        text-align: 40px;
+        font-size: 30px;
+      }
+
+      a#btn_ideo:hover {
+        color: white;
+        background-color:#f16630;
+      }
+
+			a#btn_lyft {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				box-shadow: 1px 2px 2px /*how blurry*/ rgba(0,0,0,0.6);
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #ff00bf;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_lyft:hover {
+				background-color: #352384;
+					  transform: scale(1.1);
+			}
+			a#btn_lyft img {
+        width: 200px;
+      	display: block;
+				margin-left: -48px;
+
+      }
+
+			a#btn_samsung {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				box-shadow: 1px 2px 2px /*how blurry*/ rgba(0,0,0,0.6);
+				border-radius: 5px;
+				margin: 5px;
+				margin-top: 90px;
+				padding: 2px 25px 6px 20px;
+				background-color: #1428a0;
+				text-decoration: none;
+				text-transform: uppercase;
+				color: white;
+				font-family: 'Poppins', sans-serif;
+				font-weight: 100px;
+				font-size: 30px;
+			}
+
+			a#btn_samsung:hover {
+				background-color: #fff;
+				border: 2px solid #1428a0;
+				color: #1428a0;
+			}
+
+			a#btn_nike {
+        display: block;
+        width: 175px;
+        height: 80px;
+        margin: auto;
+        margin-top: 80px;
+        padding-top: -30px;
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+				font-family: 'futura-pt-condensed' sans-serif;
+				font-weight: 900;
+				font-style: italic;
+        font-size: 60px;
+      }
+
+      a#btn_nike:hover {
+        color: #ffff;
+        background-color: black;
+			transform: skewX(3deg);
+					transition-duration: 0.5s;
+      }
+
+
+			a#btn_garden {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 5px;
+				margin: 10px;
+				margin-top: 80px;
+				padding: 5px 25px 0 20px;
+				background-color: White;
+				text-decoration: none;
+				  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+				color: #416910;
+				font-family: 'Playfair Display SC', serif;
+				font-size: 25px;
+			}
+
+			a#btn_garden:hover {
+				background-color: #fff;
+				  transform: scale(1.1);
+
+				color: #1428a0;
+				text-transform: bold;
+			}
+
+			a#btn_color {
+				display: inline-block;
+				height: 50px;
+				margin: 10px;
+				margin-top: 80px;
+				padding: 0px 25px 0 0px;
+				text-decoration: none;
+				text-transform: uppercase;
+				text-align: left;
+				line-height: 40px;
+				color: pink;
+				font-family: 'Futura-pt-condensed', sans-serif;
+				font-size: 50px;
+font-weight: 500;
+font-style: normal;
+			}
+
+			a#btn_color:hover {
+				color: pink;
+				font-weight: 650;
+				letter-spacing: 3px;
+				transition-duration: 0.2s;
+			}
+
+			a#btn_fitbit {
+				display: inline-block;
+				height: 50px;
+				width: 130px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: -30px 50px 0 15px;
+				background-color: #012a3a;
+				border: 3px solid #248d92;
+				color: #fff;
+				font-size: 35px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_fitbit:hover {
+				background-color: #fff;
+				color: #248d92;
+				text-decoration: none;
+				box-sizing: none;
+				border-radius: 25px;
+			}
+			a#btn_npr {
+				display: inline-block;
+				height: 50 px;
+				box-sizing: inherit;
+				border-radius: 0px;
+				margin: 10px;
+				margin-top: 90px;
+				padding: 6px 10px 0px 9px;
+
+			}
+
+			a#btn_npr:hover {
+				border: 5px solid #237bbd
+			}
+
+			a#btn_npr img {
+        width: 140px;
+        margin-top: 0px;
+      }
+
+			a#btn_watch {
+        display: block;
+        width: 170px;
+        height: 90px;
+				box-sizing: border-box;
+				border-radius: 20px;
+        margin: auto;
+        margin-top: 80px;
+        padding-top: 18px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+				font-family: 'futura-pt-condensed' sans-serif;
+				font-weight: 900;
+				font-style: italic;
+        font-size: 30px;
+				letter-spacing: -2px;
+				line-height: 25px;
+				background: linear-gradient(to top,  #ffffff 0%,#818b96 89%,#50555b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#50555b',GradientType=0 ); /* IE6-9 */
+				box-shadow: 1px 2px 2px /*how blurry*/ rgba(0,0,0,0.1);
+      }
+
+      a#btn_watch:hover {
+        color: #f5f5f5;
+				transform: scale(1.1);
+				transform: rotate(360deg);
+				transition-duration: 1s;
+      }
+
+			a#btn_insta {
+				display: inline-block;
+				width: 130px;
+				height: 130px;
+				box-sizing: border-box;
+				border-radius: 80px;
+				margin: auto;
+				margin-top: 60px;
+				padding: -5px 30px 3px 20px;
+				background-color: white;
+				box-shadow: 0.05px 1px 3px 2px /*how blurry*/ rgba(0,0,0,0.15);
+				color: #fff;
+				font-size: 30px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_insta:hover {
+				background-color: #f5f5f5;
+				color: #000;
+			}
+
+			a#btn_insta img {
+				width: 150px;
+				display: block;
+				margin-left: -10px;
+				margin-top: -10px;
+			}
+
+			a#btn_facebook {
+				display: inline-block;
+				width: 90px;
+				height: 88px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin:auto;
+				margin-top: 90px;
+				padding: 6px 16px;
+				background-color: #3b5998;
+				color: white;
+				font-weight: bold;
+				font-family: 'Arial', sans-serif;
+				font-size: 30px;
+				text-decoration: none;
+				font-size: 100px;
+			}
+
+			a#btn_facebook:hover {
+				color: white;
+				background-color: #3b5998;
+				transform: scale(1.1);
+			}
+
+			a#btn_cartoon {
+				display: inline-block;
+				width: 130px;
+				height: 80px;
+				box-sizing: border-box;
+				margin-top: 85px;
+				margin-right: 0px;
+				padding: -5px 30px 3px 20px;
+				background-color:white;
+			}
+
+			a#btn_cartoon:hover {
+				background-color: black;
+			}
+
+			a#btn_cartoon img {
+					width: 200px;
+					display: block;
+					margin-left: -37px;
+					margin-top: -30px;
+			}
+
+			a#btn_hsn {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 80px;
+				padding-top: 25px;
+				background-color: rgb(0, 119, 200);
+				color: #fff;
+				text-align: center;
+				font-size: 40px;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-family: 'Ubuntu', sans-serif;
+			}
+
+			a#btn_hsn:hover {
+				color: rgb(0, 119, 200);
+				background-color: #fff;
+				border: 2px solid rgb(0, 119, 200);
+			}
+
+			a#btn_sardella {
+				display: inline-block;
+				height: 65px;
+				width: 190px;
+				box-sizing: border-box;
+				border-radius: 30px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 0px 40px -30px 40px;
+				background-color:  #fff;
+				color: rgb(0, 210, 206);
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				font-family: 'Futura-pt-condensed', sans-serif;
+				font-size: 50px;
+font-weight: 500;
+font-style: normal;
+				letter-spacing: 0px;
+			}
+
+			a#btn_sardella:hover {
+				color: rgb(7, 6, 196);
+				background-color: rgb(0, 210, 206);
+				font-weight: 600;
+			}
+
+
+		</style>
+	</head>
+	<body>
+
+		<div id="main_content">
+
+			<h1>Button Styling - Erin Noh</h1>
+
+			<div class="button_container">
+				<a href="http://www.spotify.com" target="_blank" id="btn_spotify">Spotify</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.amazon.com" target="_blank" id="btn_amazon"><i class="fa fa-amazon"></i></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.twitter.com" target="_blank" id="btn_twitter">twitter</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.indiegogo.com" target="_blank" id="btn_indiegogo">indiegogo</a>
+			</div>
+
+      <div class="button_container">
+      <a href="http://www.coca-cola.com/" target="_blank" id="btn_coca-color"><img src="https://fontmeme.com/permalink/191009/df480efd722a66a85dbddc5358032531.png" alt="coca-cola-font" border="0"></a>
+
+      </div>
+			<div class="button_container">
+				<a href="https://www.ideo.org/" target="_blank" id="btn_ideo">ideo</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.lyft.com" target="_blank" id="btn_lyft"><img src= "images/lyft (1).png"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.samsung.com" target="_blank" id="btn_samsung">Samsung</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.nike.com" target="_blank" id="btn_nike">NIKE</a>
+
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.missouribotanicalgarden.org/" target="_blank" id="btn_garden" > Missouri Botanical <br>Garden</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.thecolorrun.com" target="_blank" id="btn_color">The<br> Color<br> Run<br></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.fitbit.com/home" target="_blank" id="btn_fitbit">fitbit</a>
+	</div>
+
+	<div class="button_container">
+		<a href="https://www.npr.org/" target="_blank" id="btn_npr"><img src= "images/npr.png"></a>
+</div>
+
+<div class="button_container">
+	<a href="https://watch.motortrend.com/" target="_blank" id="btn_watch">MOTOR TREND</a>
+</div>
+
+<div class="button_container">
+	<a href="https://www.instagram.com/" target="_blank" id="btn_insta"><img src= "images/insta.png"></a>
+</div>
+
+<div class="button_container">
+	<a href="https://www.facebook.com/" target="_blank" id="btn_facebook">f</a>
+</div>
+
+<div class="button_container">
+	<a href="https://www.cartoonnetwork.com" target="_blank" id="btn_cartoon"><img src= "images/cn.png"></a>
+</div>
+
+<div class="button_container">
+	<a href="https://www.hsn.com/" target="_blank" id="btn_hsn">hsn</a>
+</div>
+
+<div class="button_container">
+	<a href="https://sardellastl.com/" target="_blank" id="btn_sardella">sardella</a>
+</div>
+
+	</body>
+</html>
