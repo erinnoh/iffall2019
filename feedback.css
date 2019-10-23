@@ -1,0 +1,19 @@
+
+h1{
+font-family: 'benton-sans', sans-serif;
+font-weight: 700;
+font-size: 30px;
+font-style: normal;
+color: gray;
+    }
+
+
+  body {
+  position: relative;
+  left: 50px;
+  top: 50px;
+  font-family: 'benton-sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
