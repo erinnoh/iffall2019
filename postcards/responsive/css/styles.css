@@ -1,0 +1,236 @@
+html,body{
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+#card1{
+  background-image: url(../images/0.jpg);
+  background-size: cover;
+  background-position: 64%;
+  background-repeat: no-repeat;
+  font-family: 'agenda', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  margin: 0;
+}
+
+#card2{
+  background-image: url(../images/2.jpg);
+  background-size: cover;
+  background-position: 40%;
+  background-repeat: no-repeat;
+  font-family: 'agenda', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  margin: 0;
+}
+#card3{
+  background-image: url(../images/3.jpg);
+  background-size: cover;
+  background-position: center 20%;
+    background-repeat: no-repeat;
+    font-family: 'agenda', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    margin: 0;
+}
+
+#card1 .text{
+  color: white;
+  display: block;
+  margin: 8%;
+  text-shadow: 2px 2px #333333;
+  overflow: hidden;
+}
+
+#card3 .text{
+  position: absolute;
+  color: white;
+  display: block;
+  text-align: center;
+    text-shadow: 2px 2px #333333;
+    margin: 12%;
+    bottom: 0;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+div.text2{
+  position: absolute;
+  color: white;
+  display: block;
+  margin-left: 50%;
+  margin-top: 300px;
+  text-shadow: 2px 2px #333333;
+  text-align: right;
+}
+#card2 h2{
+  text-align: right;
+}
+#card3 h2{
+  text-align: center;
+}
+
+h1{
+  font-family: 'agenda', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  margin: 0;
+}
+h2{
+  font-family: 'agenda', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  padding-top:10px;
+  font-style: italic;
+  text-align: left;
+  overflow: hidden;
+  margin: 0;
+  height: 100%;
+  display: block;
+  color: white;
+}
+
+ @media (max-width: 800px){
+    #card1 .text{
+      font-size: 45px;
+      padding-right: 0;
+      padding-top: 130px;
+      text-align: left;
+      }
+}
+      @media (max-width: 800px){
+        #card1 .text h1{
+          font-size: 60px;
+          text-align: left;
+          margin: auto;
+          }
+}
+  @media (max-width: 800px){
+    #card1 .text h2{
+      text-align: left;
+      margin: auto;
+      font-size: 30px;
+      }
+}
+
+@media (max-width: 672px){
+  #card1 .text{
+    font-size: 15px;
+    padding-right: 25%;
+    padding-top: 100px;
+    text-align: left;
+    }
+}
+    @media (max-width: 672px){
+    #card1 .text h1{
+        font-size: 45px;
+        text-align: left;
+        margin: auto;
+        }
+}
+@media (max-width: 672px){
+#card1 .text h2{
+    text-align: left;
+    margin: auto;
+    padding-top: 10%;
+    font-size: 20px;
+    }
+  }
+  @media (max-width: 890px){
+    #card2 .text2{
+      font-size: 35px;
+      padding-right: 80px;
+      text-align: right;
+      }
+  }
+
+  @media (max-width: 890px){
+  #card2 .text2 h2{
+      text-align: right;
+      margin: auto;
+      font-size: 25px;
+      }
+    }
+
+    @media (max-width: 672px){
+      #card2 .text2{
+        font-size: 25px;
+        text-align: center;
+        }
+    }
+
+    @media (max-width: 672px){
+    #card2 .text2 h2{
+        text-align: center;
+        margin: auto;
+        font-size: 15px;
+        }
+    }
+    @media (max-width: 800px){
+      #card3 .text{
+        font-size: 40px;
+        bottom: 0;
+        text-align: center;
+        }
+    }
+        @media (max-width: 800px){
+        #card3 .text h1{
+            font-size: 62px;
+            text-align: center;
+            margin: auto;
+            }
+    }
+    @media (max-width: 800px){
+    #card3 .text h2{
+        text-align: center;
+        margin: auto;
+        font-size: 30px;
+        }
+      }
+     @media (max-width: 672px){
+       #card3 .text{
+         font-size: 30px;
+         text-align: center;
+         margin-left: 7%;
+         margin-right: 1%;
+        margin-top: 0;
+        margin-bottom: 0;
+         }
+     }
+         @media (max-width: 672px){
+         #card3 .text h1{
+             font-size: 52px;
+             text-align: left;
+             margin: auto;
+             }
+     }
+     @media (max-width: 672px){
+     #card3 .text h2{
+         text-align: left;
+         margin: auto;
+         font-size: 20px;
+         }
+       }
+  a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    }
+
+    a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
