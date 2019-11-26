@@ -1,0 +1,387 @@
+html,body{
+  height: 100%;
+  overflow: scroll;
+  margin: 0;
+}
+
+#homepage{
+  background-image: url(../images/homepage.jpg);
+  background-size: cover;
+  background-position: 64%;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+#about{
+  background-color:#f3f3f4;
+}
+
+#actress{
+  background-color:#f3f3f4;
+}
+
+#princess{
+  background-color:#f3f3f4;
+}
+
+#legacy{
+  background-color:#f3f3f4;
+}
+#sources{
+  background-color:#f3f3f4;
+}
+.subtitles{
+  margin: auto;
+}
+.subtitles>div{
+  display: inline-block;
+  width: 6%;
+  min-width: 130px;
+}
+h1{
+  font-family: 'tenez', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 165px;
+  margin-top: -5px;
+  margin-bottom: -65px;
+  margin-left: 85px;
+}
+
+h4{
+  font-family: 'tenez', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 165px;
+  margin-top: -5px;
+  margin-bottom: -65px;
+  margin-left: 85px;
+  letter-spacing: 15px;
+}
+h2{
+  font-family: 'urw-din-semi-condensed', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+margin-left: 85px;
+margin-top: 150px;
+margin-bottom: 35px;
+}
+
+#homepage h3{
+  font-family: 'austin-pen', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  margin-left: 113px;
+  margin-top: 20px;
+}
+#homepage p{
+  font-family: 'urw-din-semi-condensed', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+font-size: 19px;
+margin-left: 95px;
+margin-top: 80px;
+}
+
+a#button{
+ text-decoration: none;
+ color: black;
+}
+
+a#buttonabout{
+  color: #6C99C1;
+  text-decoration: none;
+}
+
+a#buttonactress{
+  color: #6C99C1;
+   text-decoration: none;
+}
+
+a#buttonprincess{
+  color: #6C99C1;
+   text-decoration: none;
+}
+
+a#buttonlegacy{
+  color: #6C99C1;
+   text-decoration: none;
+}
+
+a#buttonsources{
+  color: #6C99C1;
+   text-decoration: none;
+}
+
+a#button:hover{
+  color: #6C99C1;
+  font-weight: bolder;
+}
+
+a#gracebutton{
+  text-decoration: none;
+  color: black;
+}
+#about h1{
+  font-size: 50px;
+  margin-top: 60px;
+  letter-spacing: 22px;
+}
+#actress h1{
+  font-size: 50px;
+  margin-top: 60px;
+  letter-spacing: 22px;
+}
+
+#princess h1{
+  font-size: 50px;
+  margin-top: 60px;
+  letter-spacing: 22px;
+}
+
+#legacy h1{
+  font-size: 50px;
+  margin-top: 60px;
+  letter-spacing: 22px;
+}
+#sources h1{
+  font-size: 50px;
+  margin-top: 60px;
+  letter-spacing: 22px;
+}
+.subtitles a{
+  display: inline-block;
+  font-family: 'urw-din-semi-condensed', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  width: 5%;
+  min-width: 130px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: -20px;
+}
+
+.subtitles1 a{
+  display: inline-block;
+  font-family: 'urw-din-semi-condensed', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  width: 5%;
+  min-width: 130px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-right: -20px;
+}
+div.subtitles{
+  margin-left: 95px;
+  margin-top: 80px;
+}
+div.subtitles1{
+  margin-left: 95px;
+  margin-top: 50px;
+}
+#about img{
+  max-width: 25%;
+  margin-left: 130px;
+  margin-top: 40px;
+  position: absolute;
+}
+
+#actress img.image1{
+  max-width: 25%;
+  margin-left: 130px;
+  margin-top: 40px;
+  position: absolute;
+}
+#princess img{
+  max-width: 25%;
+  margin-left: 130px;
+  margin-top: 40px;
+  position: absolute;
+}
+ /* #actress img.image2{
+  max-width: 25%;
+  margin-left: 40%;
+  margin-top: 40px;
+  position: absolute;
+  display: inline-block;
+} */
+#about p{
+  margin-left: 10%;
+  font-family: 'urw-din-semi-condensed', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  color: black;
+  margin-top: 4%;
+  padding-left: 32%;
+  padding-right: 17%;
+}
+#actress p{
+  margin-left: 10%;
+  font-family: 'urw-din-semi-condensed', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  color: black;
+  margin-top: 4%;
+  padding-left: 30%;
+  padding-right: 15%;
+}
+
+#about h3{
+  font-family: 'austin-pen', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 38px;
+  margin-left: 42%;
+  margin-top: 22px;
+  margin-bottom: 0px;
+  letter-spacing: 4px;
+  position: fixed;
+  }
+  #actress h3{
+    font-family: 'austin-pen', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 39px;
+    margin-left: 40%;
+    margin-bottom: 0px;
+    margin-top: 22px;
+    letter-spacing: 4px;
+    position: absolute;
+    }
+.thin{
+    display: block;
+    height: 2px;
+    width:590px;
+    background-color: black;
+    position: relative;
+    margin-left: 65%;
+    margin-top:3.5%;
+    position: relative;
+}
+#actress .thin{
+  display: block;
+  height: 2px;
+  width:622px;
+  background-color: black;
+  position: relative;
+  margin-left: 63%;
+  margin-bottom: none;
+  position: relative;
+}
+#actress h2{
+  margin-left: 3%;
+  font-family: 'urw-din-semi-condensed', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  color: black;
+  margin-top: 5%;
+  padding-left: 7%;
+  padding-right: 45%;
+}
+#princess .thin{
+  display: block;
+  height: 2px;
+  width:538px;
+  background-color: black;
+  position: relative;
+  margin-left: 68%;
+  margin-bottom: none;
+  position: relative;
+}
+#princess h2{
+  margin-left: 3%;
+  font-family: 'urw-din-semi-condensed', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  color: black;
+  margin-top: 5%;
+  padding-left: 7%;
+  padding-right: 45%;
+}
+#princess h3{
+  font-family: 'austin-pen', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 39px;
+  margin-left: 40%;
+  margin-bottom: 0px;
+  margin-top: 22px;
+  letter-spacing: 4px;
+  position: absolute;
+  }
+  #princess p{
+    margin-left: 10%;
+    font-family: 'urw-din-semi-condensed', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    color: black;
+    margin-top: 4%;
+    padding-left: 30%;
+    padding-right: 15%;
+  }
+  #legacy.thin{
+    display: block;
+    height: 2px;
+    width:538px;
+    background-color: black;
+    position: relative;
+    margin-left: 68%;
+    margin-bottom: none;
+    position: relative;
+  }
+  #legacy h2{
+    margin-left: 3%;
+    font-family: 'urw-din-semi-condensed', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    color: black;
+    margin-top: 5%;
+    padding-left: 7%;
+    padding-right: 45%;
+  }
+  #legacy h3{
+    font-family: 'austin-pen', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 39px;
+    margin-left: 40%;
+    margin-bottom: 0px;
+    margin-top: 22px;
+    letter-spacing: 4px;
+    position: absolute;
+    }
+    #legacy p{
+      margin-left: 10%;
+      font-family: 'urw-din-semi-condensed', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 19px;
+      color: black;
+      margin-top: 4%;
+      padding-left: 30%;
+      padding-right: 15%;
+    }
+    #sources p{
+      font-family: 'urw-din-semi-condensed', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 19px;
+      color: black;
+      margin-top: 30%;
+    text-align: center;
+    }
+#sources img{
+  max-width: 25%;
+margin-left: 37.5%;
+position: absolute;
+}
